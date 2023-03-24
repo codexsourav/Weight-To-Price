@@ -26,11 +26,14 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 
+
+////for public srtart 
 def keystoreProperties = new Properties()
    def keystorePropertiesFile = rootProject.file('key.properties')
    if (keystorePropertiesFile.exists()) {
        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
    }
+////for public end
 
 android {
     compileSdkVersion 33
@@ -73,7 +76,7 @@ signingConfigs {
        release {
            signingConfig signingConfigs.release
        }
-
+   }
     // buildTypes {
     //     release {
     //         // TODO: Add your own signing config for the release build.
