@@ -75,7 +75,7 @@ class MyDrawer extends StatelessWidget {
             onTap: () {
               launchUrl(
                   mode: LaunchMode.externalApplication,
-                  Uri.parse('https://play.google.com'));
+                  Uri.parse('https://weighttopriceconverter.blogspot.com'));
             },
             trailing: const Icon(
               Icons.arrow_forward_ios_rounded,

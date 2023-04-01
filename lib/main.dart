@@ -9,9 +9,8 @@ void main(List<String> args) {
   MobileAds.instance.initialize();
 
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    systemNavigationBarColor:
-        Color.fromARGB(255, 255, 255, 255), // navigation bar color
-    statusBarColor: Color.fromARGB(255, 255, 255, 255), // status bar color
+    systemNavigationBarColor: Color.fromARGB(255, 255, 255, 255),
+    statusBarColor: Color.fromARGB(255, 255, 255, 255),
   ));
   runApp(const MyApp());
 }

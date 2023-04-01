@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                 )),
           ],
         ),
-        drawer: MyDrawer(),
+        drawer: const MyDrawer(),
         body: const TabBarView(
           children: [
             Weighttoprice(),
